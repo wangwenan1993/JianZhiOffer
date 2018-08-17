@@ -1,0 +1,44 @@
+import sun.reflect.generics.tree.Tree;
+
+import javax.swing.tree.TreeNode;
+
+/**
+ * Created by Administrator on 2018/8/14.
+ */
+public class HasSubtree_17 {
+
+    public class TreeNode {
+        int val = 0;
+        TreeNode left = null;
+        TreeNode right = null;
+
+        public TreeNode(int val) {
+            this.val = val;
+        }
+    }
+
+    public boolean HasSubtree(TreeNode root1, TreeNode root2) {
+        if(root1 == null || root2 == null) return false;
+        boolean flag = false;
+        if(root1.val == root2.val) {
+            flag = isSubTree(root1, root2);
+        }
+        if(!flag) {
+            flag = HasSubtree(root1.left, root2);
+            if(!flag) {
+                flag = HasSubtree(root1.right, root2);
+            }
+        }
+        return flag;
+    }
+
+    public static boolean isSubTree(TreeNode root1, TreeNode root2) {
+        if(root2 == null) return true;
+        if(root1 == null && root2 != null) return false;
+        if(root1.val == root2.val) {
+            return isSubTree(root1.left, root2.left) && isSubTree(root1.right, root2.right);
+        } else {
+            return false;
+        }
+    }
+}
