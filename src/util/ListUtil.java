@@ -1,7 +1,6 @@
 package util;
 
-import bean.Beans.DoubleNode;
-import bean.Beans.SingleNode;
+import bean.Beans.*;
 
 /**
  * @Author wangwenan

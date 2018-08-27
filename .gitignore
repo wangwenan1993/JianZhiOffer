@@ -1,5 +1,5 @@
 # InteriLj Idea
-out/
+/out/
 #.idea/
 #.iml
 *.class

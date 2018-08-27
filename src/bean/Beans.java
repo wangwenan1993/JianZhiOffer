@@ -36,6 +36,16 @@ public class Beans {
         }
     }
 
+    public static class RandomListNode {
+        public int label;
+        public RandomListNode next = null;
+        public RandomListNode random = null;
+
+        public RandomListNode(int label) {
+            this.label = label;
+        }
+    }
+
     public static class TreeNode extends Node {
         public int val = 0;
         public TreeNode left = null;
