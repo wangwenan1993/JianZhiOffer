@@ -1,7 +1,7 @@
 /**
  * Created by Administrator on 2018/8/12.
  */
-public class FindKthToTail_14 {
+public class _14_FindKthToTail {
     public ListNode FindKthToTail(ListNode head, int k) {
         head = reverseList(head);
         ListNode tmp = head;
@@ -64,7 +64,7 @@ public class FindKthToTail_14 {
         head.next.next = new ListNode(3);
         head.next.next.next = new ListNode(4);
         head.next.next.next.next = new ListNode(5);
-        FindKthToTail_14 find = new FindKthToTail_14();
+        _14_FindKthToTail find = new _14_FindKthToTail();
 //        head = reverseList(head);
 //        ListNode temp = head;
 //        while(temp != null) {

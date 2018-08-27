@@ -1,7 +1,7 @@
 /**
  * Created by Administrator on 2018/8/11.
  */
-public class JumpFloor_8 {
+public class _8_JumpFloor {
     public int JumpFloor(int target) {
         if (target <= 0) return 0;
         int[] result = new int[target+1];
@@ -14,7 +14,7 @@ public class JumpFloor_8 {
     }
 
     public static void main(String[] args) {
-        JumpFloor_8 jump = new JumpFloor_8();
+        _8_JumpFloor jump = new _8_JumpFloor();
         System.out.println(jump.JumpFloor(5));
     }
 }

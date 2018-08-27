@@ -4,7 +4,7 @@ import java.math.BigInteger;
  * Created by Administrator on 2018/8/19.
  * 写一个函数，求两个整数之和，要求在函数体内不得使用+、-、*、/四则运算符号。
  */
-public class AddWithOperator_48 {
+public class _48_AddWithOperator {
     /**
      * 首先看十进制是如何做的： 5+7=12，三步走
      第一步：相加各位的值，不算进位，得到2。

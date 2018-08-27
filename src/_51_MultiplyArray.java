@@ -2,7 +2,7 @@
  * Created by Administrator on 2018/8/19.
  * 给定一个数组A[0,1,...,n-1],请构建一个数组B[0,1,...,n-1],其中B中的元素B[i]=A[0]*A[1]*...*A[i-1]*A[i+1]*...*A[n-1]。不能使用除法。
  */
-public class MultiplyArray_51 {
+public class _51_MultiplyArray {
     /**
      * B[i]的值可以看作下图的矩阵中每行的乘积。
      下三角用连乘可以很容求得，上三角，从下向上也是连乘。

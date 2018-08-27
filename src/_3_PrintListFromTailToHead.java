@@ -1,3 +1,5 @@
+import bean.Beans;
+
 import java.util.ArrayList;
 
 /**
@@ -8,8 +10,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class PrintListFromTailToHead_3 {
-    public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
+public class _3_PrintListFromTailToHead {
+    public ArrayList<Integer> printListFromTailToHead(Beans.SingleNode listNode) {
         ArrayList<Integer> result = new ArrayList<Integer>();
         while(listNode != null) {
             result.add(listNode.val);
@@ -17,13 +19,5 @@ public class PrintListFromTailToHead_3 {
         }
         Collections.reverse(result);
         return result;
-    }
-}
-
-class ListNode {
-    int val;
-    ListNode next = null;
-    ListNode(int val) {
-        this.val = val;
     }
 }

@@ -5,7 +5,7 @@ import javax.swing.tree.TreeNode;
 /**
  * Created by Administrator on 2018/8/14.
  */
-public class HasSubtree_17 {
+public class _17_HasSubtree {
 
     public class TreeNode {
         int val = 0;

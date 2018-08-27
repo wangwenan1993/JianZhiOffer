@@ -1,7 +1,7 @@
 /**
  * Created by Administrator on 2018/8/11.
  */
-public class RectCover_10 {
+public class _10_RectCover {
     /**
      * 思路分析：
      痛定思痛，还是不能够贪小便宜。用归纳法归纳如下，
@@ -60,7 +60,7 @@ public class RectCover_10 {
 //    }
 
     public static void main(String[] args) {
-        RectCover_10 rect = new RectCover_10();
+        _10_RectCover rect = new _10_RectCover();
         System.out.println(rect.RectCover(4));
     }
 }

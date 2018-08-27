@@ -1,7 +1,7 @@
 /**
  * Created by Administrator on 2018/8/7.
  */
-public class ReplaceStrSpace_2 {
+public class _2_ReplaceStrSpace {
     public String replaceSpace(StringBuffer str) {
         StringBuffer str_bk = new StringBuffer();
         for(int i = 0; i < str.length(); i++) {
@@ -29,7 +29,7 @@ public class ReplaceStrSpace_2 {
     }
 
     public static void main(String[] args) {
-        ReplaceStrSpace_2 r = new ReplaceStrSpace_2();
+        _2_ReplaceStrSpace r = new _2_ReplaceStrSpace();
         System.out.println(r.replaceSpace(new StringBuffer("Hello World")));
     }
 }

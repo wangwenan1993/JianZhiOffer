@@ -1,7 +1,7 @@
 /**
  * Created by Administrator on 2018/8/14.
  */
-public class MergeTwoList_16 {
+public class _16_MergeTwoList {
     public ListNode Merge(ListNode list1,ListNode list2) {
         ListNode p, q;
         p = list1;

@@ -3,7 +3,7 @@ import java.util.*;
 /**
  * Created by Administrator on 2018/8/15.
  */
-public class PermutationChar_27 {
+public class _27_PermutationChar {
 
     /**
      * 1¡¢µİ¹éËã·¨

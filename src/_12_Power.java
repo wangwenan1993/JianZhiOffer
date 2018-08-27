@@ -1,7 +1,7 @@
 /**
  * Created by Administrator on 2018/8/12.
  */
-public class Power_12 {
+public class _12_Power {
 
     public static void main(String[] args) {
         System.out.println(power(3, 3));

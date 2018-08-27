@@ -1,7 +1,7 @@
 /**
  * Created by Administrator on 2018/8/11.
  */
-public class NumberOf1_11 {
+public class _11_NumberOf1 {
     public int NumberOf1(int n) {
         int count = 0, flag = 1;
         while(flag != 0) {
@@ -23,7 +23,7 @@ public class NumberOf1_11 {
     }
 
     public static void main(String[] args) {
-        NumberOf1_11 num = new NumberOf1_11();
+        _11_NumberOf1 num = new _11_NumberOf1();
         int n = 10;
         System.out.println(num.NumberOf1_bak(n));
 

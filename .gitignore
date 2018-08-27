@@ -1,8 +1,8 @@
 # InteriLj Idea
-out
-.idea/
-.iml
-.class
+out/
+#.idea/
+#.iml
+*.class
 
 # Prerequisites
 *.d

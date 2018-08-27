@@ -1,7 +1,7 @@
 /**
  * Created by Administrator on 2018/8/19.
  */
-public class Duplicate_50 {
+public class _50_Duplicate {
     // Parameters:
     //    numbers:     an array of integers
     //    length:      the length of array numbers

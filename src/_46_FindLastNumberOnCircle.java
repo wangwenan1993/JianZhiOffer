@@ -1,7 +1,7 @@
 /**
  * Created by Administrator on 2018/8/19.
  */
-public class FindLastNumberOnCircle_46 {
+public class _46_FindLastNumberOnCircle {
     /*
     *这道题我用数组来模拟环，思路还是比较简单，但是各种下标要理清
     */

@@ -3,7 +3,7 @@ import java.util.ArrayList;
 /**
  * Created by Administrator on 2018/8/12.
  */
-public class ReOrderArray_13 {
+public class _13_ReOrderArray {
     public void reOrderArray(int [] array) {
         ArrayList<Integer> left = new ArrayList();
         ArrayList<Integer> right = new ArrayList();
