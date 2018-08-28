@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import bean.Beans.*;
 
 /**
  * @Author wangwenan

@@ -1,11 +1,12 @@
+import bean.Beans.*;
 /**
  * Created by Administrator on 2018/8/14.
  */
 public class _15_ReverseList {
-    public ListNode ReverseList(ListNode head) {
-        ListNode pre = null;
+    public SingleNode ReverseList(SingleNode head) {
+        SingleNode pre = null;
         while(head != null) {
-            ListNode cur = head;
+            SingleNode cur = head;
             head = head.next;
             cur.next = pre;
             pre = cur;

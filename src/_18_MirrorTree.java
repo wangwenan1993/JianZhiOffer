@@ -1,4 +1,5 @@
 import java.util.Stack;
+import bean.Beans.*;
 
 /**
  * @Author wangwenan

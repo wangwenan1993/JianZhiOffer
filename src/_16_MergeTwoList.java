@@ -1,13 +1,14 @@
+import bean.Beans.*;
 /**
  * Created by Administrator on 2018/8/14.
  */
 public class _16_MergeTwoList {
-    public ListNode Merge(ListNode list1,ListNode list2) {
-        ListNode p, q;
+    public SingleNode Merge(SingleNode list1,SingleNode list2) {
+        SingleNode p, q;
         p = list1;
         q = list2;
-        ListNode head = new ListNode(0);
-        ListNode tmp = head;
+        SingleNode head = new SingleNode(0);
+        SingleNode tmp = head;
         while(p != null && q != null) {
             if(p.val < q.val) {
                 tmp.next = p;

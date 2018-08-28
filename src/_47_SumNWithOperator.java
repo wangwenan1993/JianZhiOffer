@@ -1,6 +1,6 @@
 /**
  * Created by Administrator on 2018/8/19.
- * Çó1+2+3+...+n£¬ÒªÇó²»ÄÜÊ¹ÓÃ³Ë³ı·¨¡¢for¡¢while¡¢if¡¢else¡¢switch¡¢caseµÈ¹Ø¼ü×Ö¼°Ìõ¼şÅĞ¶ÏÓï¾ä£¨A?B:C£©¡£
+ * æ±‚1+2+3+...+nï¼Œè¦æ±‚ä¸èƒ½ä½¿ç”¨ä¹˜é™¤æ³•ã€forã€whileã€ifã€elseã€switchã€caseç­‰å…³é”®å­—åŠæ¡ä»¶åˆ¤æ–­è¯­å¥ï¼ˆA?B:Cï¼‰ã€‚
  */
 public class _47_SumNWithOperator {
 
@@ -15,7 +15,7 @@ public class _47_SumNWithOperator {
     }
 
     /**
-     * µİ¹éÏà¼Ó, Í¬Ê±Ê¹ÓÃ¶ÌÂ·¼ÆËãÊµÏÖÍ£Ö¹Ìõ¼ş
+     * é€’å½’ç›¸åŠ , åŒæ—¶ä½¿ç”¨çŸ­è·¯è®¡ç®—å®ç°åœæ­¢æ¡ä»¶
      * @param n
      * @return
      */

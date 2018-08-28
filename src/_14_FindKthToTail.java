@@ -1,10 +1,12 @@
+import bean.Beans.*;
+
 /**
  * Created by Administrator on 2018/8/12.
  */
 public class _14_FindKthToTail {
-    public ListNode FindKthToTail(ListNode head, int k) {
+    public SingleNode FindKthToTail(SingleNode head, int k) {
         head = reverseList(head);
-        ListNode tmp = head;
+        SingleNode tmp = head;
         if (k == 0) {
             return null;
         }
@@ -17,10 +19,10 @@ public class _14_FindKthToTail {
         return tmp;
     }
 
-    public static ListNode reverseList(ListNode head) {
-        ListNode pre = null;
+    public static SingleNode reverseList(SingleNode head) {
+        SingleNode pre = null;
         while(head != null) {
-            ListNode cur = head;
+            SingleNode cur = head;
             head = head.next;
             cur.next = pre;
             pre = cur;
@@ -28,8 +30,8 @@ public class _14_FindKthToTail {
         return pre;
     }
 
-    public static ListNode FindKthToTail1(ListNode head, int k) {
-        ListNode p, q;
+    public static SingleNode FindKthToTail1(SingleNode head, int k) {
+        SingleNode p, q;
         p = q = head;
         int i = 0;
         while(p != null) {
@@ -43,8 +45,8 @@ public class _14_FindKthToTail {
         return i < k ? null : q;
     }
 
-    public static ListNode FindKthToTail2(ListNode head, int k) {
-        ListNode tmp = head;
+    public static SingleNode FindKthToTail2(SingleNode head, int k) {
+        SingleNode tmp = head;
         int count = 0;
         while(tmp != null) {
             count++;
@@ -59,19 +61,19 @@ public class _14_FindKthToTail {
     }
 
     public static void main(String[] args) {
-        ListNode head = new ListNode(1);
-        head.next = new ListNode(2);
-        head.next.next = new ListNode(3);
-        head.next.next.next = new ListNode(4);
-        head.next.next.next.next = new ListNode(5);
+        SingleNode head = new SingleNode(1);
+        head.next = new SingleNode(2);
+        head.next.next = new SingleNode(3);
+        head.next.next.next = new SingleNode(4);
+        head.next.next.next.next = new SingleNode(5);
         _14_FindKthToTail find = new _14_FindKthToTail();
 //        head = reverseList(head);
-//        ListNode temp = head;
+//        SingleNode temp = head;
 //        while(temp != null) {
 //            System.out.println(temp.val);
 //            temp = temp.next;
 //        }
-        ListNode node = find.FindKthToTail(head, 1);
+        SingleNode node = find.FindKthToTail(head, 1);
         System.out.println(node.val);
     }
 }

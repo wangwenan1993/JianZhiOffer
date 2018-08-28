@@ -7,12 +7,12 @@ public class _50_Duplicate {
     //    length:      the length of array numbers
     //    duplication: (Output) the duplicated number in the array number,length of duplication array is 1,so using duplication[0] = ? in implementation;
     //                  Here duplication like pointor in C/C++, duplication[0] equal *duplication in C/C++
-    //    ÕâÀïÒªÌØ±ğ×¢Òâ~·µ»ØÈÎÒâÖØ¸´µÄÒ»¸ö£¬¸³Öµduplication[0]
+    //    è¿™é‡Œè¦ç‰¹åˆ«æ³¨æ„~è¿”å›ä»»æ„é‡å¤çš„ä¸€ä¸ªï¼Œèµ‹å€¼duplication[0]
     // Return value:       true if the input is valid, and there are some duplications in the array number
     //                     otherwise false
 
     /**
-     * Ê¹ÓÃbooleanÀàĞÍÊı×é¼ÇÂ¼ÊÇ·ñ´æÔÚ
+     * ä½¿ç”¨booleanç±»å‹æ•°ç»„è®°å½•æ˜¯å¦å­˜åœ¨
      */
     public boolean duplicate(int numbers[],int length,int [] duplication) {
         if(numbers == null || numbers.length == 0) return false;
@@ -28,9 +28,9 @@ public class _50_Duplicate {
     }
 
     /**
-     * ²»ĞèÒª¶îÍâµÄÊı×é»òÕßhash tableÀ´±£´æ£¬ÌâÄ¿ÀïĞ´ÁËÊı×éÀïÊı×ÖµÄ·¶Î§±£Ö¤ÔÚ0 ~ n-1 Ö®¼ä£¬ËùÒÔ¿ÉÒÔÀûÓÃÏÖÓĞÊı×éÉèÖÃ±êÖ¾£¬
-     * µ±Ò»¸öÊı×Ö±»·ÃÎÊ¹ıºó£¬¿ÉÒÔÉèÖÃ¶ÔÓ¦Î»ÉÏµÄÊı + n£¬Ö®ºóÔÙÓöµ½ÏàÍ¬µÄÊıÊ±£¬
-     * »á·¢ÏÖ¶ÔÓ¦Î»ÉÏµÄÊıÒÑ¾­´óÓÚµÈÓÚnÁË£¬ÄÇÃ´Ö±½Ó·µ»ØÕâ¸öÊı¼´¿É¡£
+     * ä¸éœ€è¦é¢å¤–çš„æ•°ç»„æˆ–è€…hash tableæ¥ä¿å­˜ï¼Œé¢˜ç›®é‡Œå†™äº†æ•°ç»„é‡Œæ•°å­—çš„èŒƒå›´ä¿è¯åœ¨0 ~ n-1 ä¹‹é—´ï¼Œæ‰€ä»¥å¯ä»¥åˆ©ç”¨ç°æœ‰æ•°ç»„è®¾ç½®æ ‡å¿—ï¼Œ
+     * å½“ä¸€ä¸ªæ•°å­—è¢«è®¿é—®è¿‡åï¼Œå¯ä»¥è®¾ç½®å¯¹åº”ä½ä¸Šçš„æ•° + nï¼Œä¹‹åå†é‡åˆ°ç›¸åŒçš„æ•°æ—¶ï¼Œ
+     * ä¼šå‘ç°å¯¹åº”ä½ä¸Šçš„æ•°å·²ç»å¤§äºç­‰äºnäº†ï¼Œé‚£ä¹ˆç›´æ¥è¿”å›è¿™ä¸ªæ•°å³å¯ã€‚
      */
     public boolean duplicate1(int numbers[],int length,int [] duplication) {
         if(numbers == null || numbers.length == 0) return false;

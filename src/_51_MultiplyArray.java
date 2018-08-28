@@ -1,12 +1,12 @@
 /**
  * Created by Administrator on 2018/8/19.
- * ¸ø¶¨Ò»¸öÊý×éA[0,1,...,n-1],Çë¹¹½¨Ò»¸öÊý×éB[0,1,...,n-1],ÆäÖÐBÖÐµÄÔªËØB[i]=A[0]*A[1]*...*A[i-1]*A[i+1]*...*A[n-1]¡£²»ÄÜÊ¹ÓÃ³ý·¨¡£
+ * ç»™å®šä¸€ä¸ªæ•°ç»„A[0,1,...,n-1],è¯·æž„å»ºä¸€ä¸ªæ•°ç»„B[0,1,...,n-1],å…¶ä¸­Bä¸­çš„å…ƒç´ B[i]=A[0]*A[1]*...*A[i-1]*A[i+1]*...*A[n-1]ã€‚ä¸èƒ½ä½¿ç”¨é™¤æ³•ã€‚
  */
 public class _51_MultiplyArray {
     /**
-     * B[i]µÄÖµ¿ÉÒÔ¿´×÷ÏÂÍ¼µÄ¾ØÕóÖÐÃ¿ÐÐµÄ³Ë»ý¡£
-     ÏÂÈý½ÇÓÃÁ¬³Ë¿ÉÒÔºÜÈÝÇóµÃ£¬ÉÏÈý½Ç£¬´ÓÏÂÏòÉÏÒ²ÊÇÁ¬³Ë¡£
-     Òò´ËÎÒÃÇµÄË¼Â·¾ÍºÜÇåÎúÁË£¬ÏÈËãÏÂÈý½ÇÖÐµÄÁ¬³Ë£¬¼´ÎÒÃÇÏÈËã³öB[i]ÖÐµÄÒ»²¿·Ö£¬È»ºóµ¹¹ýÀ´°´ÉÏÈý½ÇÖÐµÄ·Ö²¼¹æÂÉ£¬°ÑÁíÒ»²¿·ÖÒ²³Ë½øÈ¥¡£
+     * B[i]çš„å€¼å¯ä»¥çœ‹ä½œä¸‹å›¾çš„çŸ©é˜µä¸­æ¯è¡Œçš„ä¹˜ç§¯ã€‚
+     ä¸‹ä¸‰è§’ç”¨è¿žä¹˜å¯ä»¥å¾ˆå®¹æ±‚å¾—ï¼Œä¸Šä¸‰è§’ï¼Œä»Žä¸‹å‘ä¸Šä¹Ÿæ˜¯è¿žä¹˜ã€‚
+     å› æ­¤æˆ‘ä»¬çš„æ€è·¯å°±å¾ˆæ¸…æ™°äº†ï¼Œå…ˆç®—ä¸‹ä¸‰è§’ä¸­çš„è¿žä¹˜ï¼Œå³æˆ‘ä»¬å…ˆç®—å‡ºB[i]ä¸­çš„ä¸€éƒ¨åˆ†ï¼Œç„¶åŽå€’è¿‡æ¥æŒ‰ä¸Šä¸‰è§’ä¸­çš„åˆ†å¸ƒè§„å¾‹ï¼ŒæŠŠå¦ä¸€éƒ¨åˆ†ä¹Ÿä¹˜è¿›åŽ»ã€‚
      * @param A
      * @return
      */
@@ -15,12 +15,12 @@ public class _51_MultiplyArray {
         int[] B = new int[length];
         if(length != 0 ){
             B[0] = 1;
-            //¼ÆËãÏÂÈý½ÇÁ¬³Ë
+            //è®¡ç®—ä¸‹ä¸‰è§’è¿žä¹˜
             for(int i = 1; i < length; i++){
                 B[i] = B[i-1] * A[i-1];
             }
             int temp = 1;
-            //¼ÆËãÉÏÈý½Ç
+            //è®¡ç®—ä¸Šä¸‰è§’
             for(int j = length-2; j >= 0; j--){
                 temp *= A[j+1];
                 B[j] *= temp;

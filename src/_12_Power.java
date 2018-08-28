@@ -7,7 +7,7 @@ public class _12_Power {
         System.out.println(power(3, 3));
         System.out.println(powerAnother(3, 3));
     }
-    // 使用递归
+    // 浣跨敤閫掑綊
     public static double power(double base, int exponent) {
         int n = Math.abs(exponent);
         double result = 0.0;
@@ -18,14 +18,14 @@ public class _12_Power {
 
         result = power(base, n >> 1);
         result *= result;
-        if ((n & 1) == 1) // 如果指数n为奇数，则要再乘一次底数base
+        if ((n & 1) == 1) // 濡傛灉鎸囨暟n涓哄鏁帮紝鍒欒鍐嶄箻涓�娆″簳鏁癰ase
             result *= base;
-        if (exponent < 0) // 如果指数为负数，则应该求result的倒数
+        if (exponent < 0) // 濡傛灉鎸囨暟涓鸿礋鏁帮紝鍒欏簲璇ユ眰result鐨勫�掓暟
             result = 1 / result;
 
         return result;
     }
-    // 使用累乘
+    // 浣跨敤绱箻
     public static double powerAnother(double base, int exponent) {
         double result = 1.0;
         for (int i = 0; i < Math.abs(exponent); i++) {
