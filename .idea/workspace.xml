@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf9c85f7-71c5-4626-b06e-ef3c27f05cd7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/_10_RectCover.java" afterPath="$PROJECT_DIR$/src/_10_RectCover.java" />
-      <change beforePath="$PROJECT_DIR$/src/_12_Power.java" afterPath="$PROJECT_DIR$/src/_12_Power.java" />
-      <change beforePath="$PROJECT_DIR$/src/_14_FindKthToTail.java" afterPath="$PROJECT_DIR$/src/_14_FindKthToTail.java" />
-      <change beforePath="$PROJECT_DIR$/src/_15_ReverseList.java" afterPath="$PROJECT_DIR$/src/_15_ReverseList.java" />
-      <change beforePath="$PROJECT_DIR$/src/_16_MergeTwoList.java" afterPath="$PROJECT_DIR$/src/_16_MergeTwoList.java" />
-      <change beforePath="$PROJECT_DIR$/src/_18_MirrorTree.java" afterPath="$PROJECT_DIR$/src/_18_MirrorTree.java" />
-      <change beforePath="$PROJECT_DIR$/src/_22_BFSPrintFromTopToBottom.java" afterPath="$PROJECT_DIR$/src/_22_BFSPrintFromTopToBottom.java" />
-      <change beforePath="$PROJECT_DIR$/src/_24_FindPathOFSumEqualsTarget.java" afterPath="$PROJECT_DIR$/src/_24_FindPathOFSumEqualsTarget.java" />
-      <change beforePath="$PROJECT_DIR$/src/_26_ConvertBST2TDoubleLinklist.java" afterPath="$PROJECT_DIR$/src/_26_ConvertBST2TDoubleLinklist.java" />
-      <change beforePath="$PROJECT_DIR$/src/_27_PermutationChar.java" afterPath="$PROJECT_DIR$/src/_27_PermutationChar.java" />
-      <change beforePath="$PROJECT_DIR$/src/_46_FindLastNumberOnCircle.java" afterPath="$PROJECT_DIR$/src/_46_FindLastNumberOnCircle.java" />
-      <change beforePath="$PROJECT_DIR$/src/_47_SumNWithOperator.java" afterPath="$PROJECT_DIR$/src/_47_SumNWithOperator.java" />
-      <change beforePath="$PROJECT_DIR$/src/_48_AddWithOperator.java" afterPath="$PROJECT_DIR$/src/_48_AddWithOperator.java" />
-      <change beforePath="$PROJECT_DIR$/src/_49_Str2Int.java" afterPath="$PROJECT_DIR$/src/_49_Str2Int.java" />
-      <change beforePath="$PROJECT_DIR$/src/_50_Duplicate.java" afterPath="$PROJECT_DIR$/src/_50_Duplicate.java" />
-      <change beforePath="$PROJECT_DIR$/src/_51_MultiplyArray.java" afterPath="$PROJECT_DIR$/src/_51_MultiplyArray.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,11 +15,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_11_NumberOf1.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_11_NumberOf1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_11_NumberOf1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="551">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -106,7 +100,6 @@
         <option value="$PROJECT_DIR$/src/_4_ReConstructBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/_25_RandomListNodeClone.java" />
         <option value="$PROJECT_DIR$/src/bean/Beans.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/_10_RectCover.java" />
         <option value="$PROJECT_DIR$/src/_12_Power.java" />
         <option value="$PROJECT_DIR$/src/_14_FindKthToTail.java" />
@@ -123,6 +116,7 @@
         <option value="$PROJECT_DIR$/src/_49_Str2Int.java" />
         <option value="$PROJECT_DIR$/src/_50_Duplicate.java" />
         <option value="$PROJECT_DIR$/src/_51_MultiplyArray.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -156,9 +150,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,7 +174,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -699,14 +693,16 @@
       <workItem from="1535345053474" duration="735000" />
       <workItem from="1535450233552" duration="180000" />
       <workItem from="1535450420460" duration="1278000" />
+      <workItem from="1535551441440" duration="17000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55340000" />
+    <option name="totallyTimeSpent" value="55357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -720,7 +716,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17135416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17135416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -786,14 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1117,7 +1105,15 @@
     <entry file="file://$PROJECT_DIR$/src/_11_NumberOf1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
